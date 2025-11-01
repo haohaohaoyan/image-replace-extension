@@ -1,0 +1,24 @@
+{
+    "name": "rat.png",
+    "description": "replaces all images with rat",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "32": "ratbase.png",
+        "64": "ratbase.png",
+        "128": "ratbase.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "ratbase.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>", "file:///*"],
+            "js": ["replacer.js"]
+        }
+    ]
+}
