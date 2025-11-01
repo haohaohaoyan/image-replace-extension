@@ -1,0 +1,2 @@
+# image-replace-extension
+funny!
