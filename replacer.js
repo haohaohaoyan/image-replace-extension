@@ -8,7 +8,7 @@ function replaceImages() {
                             image.src = result['customimage'];
                         });
                     } else {
-                        image.src = 'https://lh3.googleusercontent.com/d/18XofteYxRGj4_JBrwMETVE3cNhSjo32t'
+                        image.src = 'https://raw.githubusercontent.com/haohaohaoyan/rat.png/refs/heads/main/ratbase.png'
                     }
                 })
                 image.style.setProperty('image-rendering', 'pixelated')
